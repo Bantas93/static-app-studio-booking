@@ -6,7 +6,7 @@ const Navbar = () => {
       color: isActive ? "white" : "white",
       textDecoration: isActive ? "none" : "none",
       fontWeight: isActive ? "bold" : "",
-      opacity: isActive ? "" : "50%",
+      opacity: isActive ? "50%" : "50%",
     };
   };
   return (
@@ -28,10 +28,10 @@ const Navbar = () => {
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav text-center">
-            <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
+            {/* <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
               Dashboard
-            </NavLink>
-            <NavLink to="/AppBooking" style={navLinkStyles} className="m-1 p-1">
+            </NavLink> */}
+            <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
               App Booking
             </NavLink>
           </div>
