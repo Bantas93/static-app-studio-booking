@@ -31,10 +31,10 @@ const Navbar = () => {
           {/* <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
               Dashboard
             </NavLink> */}
-          {/* <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
+          <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
             App Booking
-          </NavLink> */}
-          <h4 className="text-white-50">App Booking</h4>
+          </NavLink>
+          {/* <h4 className="text-white-50">App Booking</h4> */}
         </div>
         {/* </div> */}
       </div>
