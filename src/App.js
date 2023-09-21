@@ -10,8 +10,8 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-            {/* <Route path="/" element={<Dashboard />} /> */}
             <Route path="/" element={<AppBooking />} />
+            {/* <Route path="/" element={<Dashboard />} /> */}
           </Routes>
         </div>
       </>

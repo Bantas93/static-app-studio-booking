@@ -1,14 +1,14 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const navLinkStyles = ({ isActive }) => {
-    return {
-      color: isActive ? "white" : "white",
-      textDecoration: isActive ? "none" : "none",
-      fontWeight: isActive ? "bold" : "",
-      opacity: isActive ? "50%" : "50%",
-    };
-  };
+  // const navLinkStyles = ({ isActive }) => {
+  //   return {
+  //     color: isActive ? "white" : "white",
+  //     textDecoration: isActive ? "none" : "none",
+  //     fontWeight: isActive ? "bold" : "",
+  //     opacity: isActive ? "50%" : "50%",
+  //   };
+  // };
   return (
     <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
       <div class="container justify-content-center">
@@ -31,9 +31,10 @@ const Navbar = () => {
           {/* <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
               Dashboard
             </NavLink> */}
-          <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
+          {/* <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
             App Booking
-          </NavLink>
+          </NavLink> */}
+          <h4 className="text-white-50">App Booking</h4>
         </div>
         {/* </div> */}
       </div>
