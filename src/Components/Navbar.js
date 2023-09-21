@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
       <div class="container justify-content-center">
-        <button
+        {/* <button
           class="navbar-toggler navbar-light"
           type="button"
           data-bs-toggle="collapse"
@@ -26,16 +26,16 @@ const Navbar = () => {
         <div
           class="collapse navbar-collapse justify-content-center"
           id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav text-center">
-            {/* <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
+        > */}
+        <div class="navbar-nav text-center">
+          {/* <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
               Dashboard
             </NavLink> */}
-            <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
-              App Booking
-            </NavLink>
-          </div>
+          <NavLink to="/" style={navLinkStyles} className="m-1 p-1">
+            App Booking
+          </NavLink>
         </div>
+        {/* </div> */}
       </div>
     </nav>
   );
